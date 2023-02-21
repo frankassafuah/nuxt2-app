@@ -1,11 +1,13 @@
 <template>
   <div>
-    
+    <incAppHeader />
+    <Nuxt />
+    <incAppFooter />
   </div>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  name: "default",
 };
 </script>
