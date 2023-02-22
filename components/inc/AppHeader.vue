@@ -2,7 +2,9 @@
   <div>
     <nav class="navbar navbar-expand-lg navar-light bg-white shadow">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <NuxtLink to="/" class="navbar-brand">
+          <img class="logo-img" src="/images/image-from-rawpixel-id-3150659-original.png" alt="">
+        </NuxtLink>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,3 +42,8 @@ export default {
   name: "AppHeader",
 };
 </script>
+<style>
+.logo-img {
+  width: 35px;
+}
+</style>

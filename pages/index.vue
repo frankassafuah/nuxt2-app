@@ -1,6 +1,9 @@
 <template>
-  <div class="container">
-    <h1>Home page</h1>
+  <div>
+    <carousel />
+    <div class="container">
+      <h1>Hoempage</h1>
+    </div>
   </div>
 </template>
 
