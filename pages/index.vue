@@ -10,5 +10,17 @@
 <script>
 export default {
   name: "home",
+  head() {
+    return {
+      title: "Home Page",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Nuxt Js website designing from scratch",
+        },
+      ],
+    };
+  },
 };
 </script>
