@@ -1,0 +1,13 @@
+.main-heading {
+  font-size: 30px;
+  font-weight: 800px;
+  margin-bottom: 14px;
+}
+
+.underline {
+  height: 4px;
+  width: 88px;
+  background-color: red;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
